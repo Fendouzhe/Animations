@@ -5,8 +5,8 @@
 //  Created by LeiLuRong on 15/11/16.
 //  Created by LeiLuRong on 15/11/12.
 //
-//  https://github.com/LeiLuRong
-//  http://www.cnblogs.com/LeiLuRong/
+//  https://github.com/Fendouzhe
+//  http://www.jianshu.com/u/a5b423cb2c25
 //
 
 #import "GradientColor.h"

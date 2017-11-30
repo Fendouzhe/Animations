@@ -4,8 +4,8 @@
 //
 //  Created by XianMingYou on 15/2/11.
 //
-//  https://github.com/LeiLuRong
-//  http://www.cnblogs.com/LeiLuRong/
+//  https://github.com/Fendouzhe
+//  http://www.jianshu.com/u/a5b423cb2c25
 //
 
 #import "FontInfomation.h"
