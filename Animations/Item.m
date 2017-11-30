@@ -2,7 +2,7 @@
 //  Item.m
 //  Facebook-POP-Animation
 //
-//  Created by YouXianMing on 15/11/16.
+//  Created by LeiLuRong on 15/11/16.
 //  Copyright © 2015年 ZiPeiYi. All rights reserved.
 //
 

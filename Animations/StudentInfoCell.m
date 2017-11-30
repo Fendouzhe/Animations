@@ -2,7 +2,7 @@
 //  StudentInfoCell.m
 //  HeaderViewTapAnimation
 //
-//  Created by YouXianMing on 15/9/16.
+//  Created by LeiLuRong on 15/9/16.
 //  Copyright (c) 2015年 ZiPeiYi. All rights reserved.
 //
 

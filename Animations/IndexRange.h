@@ -2,7 +2,7 @@
 //  IndexRange.h
 //  RangeMaker
 //
-//  Created by YouXianMing on 2017/1/3.
+//  Created by LeiLuRong on 2017/1/3.
 //  Copyright © 2017年 TechCode. All rights reserved.
 //
 

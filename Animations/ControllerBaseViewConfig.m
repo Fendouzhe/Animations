@@ -2,7 +2,7 @@
 //  ControllerBaseViewConfig.m
 //  BaseStructrue
 //
-//  Created by YouXianMing on 2017/5/15.
+//  Created by LeiLuRong on 2017/5/15.
 //  Copyright © 2017年 TechCode. All rights reserved.
 //
 

@@ -2,8 +2,8 @@
 //  MixedColorProgressViewController.m
 //  Animations
 //
-//  Created by YouXianMing on 16/1/5.
-//  Copyright © 2016年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 16/1/5.
+//  Copyright © 2016年 LeiLuRong. All rights reserved.
 //
 
 #import "MixedColorProgressViewController.h"
@@ -52,7 +52,7 @@
         // 白色底字
         _upLabel                    = [[UILabel alloc] initWithFrame:_upView.bounds];
         _upLabel.font               = [UIFont fontWithName:@"HelveticaNeue-Thin" size:13];
-        _upLabel.text               = @"YouXianMing - iOS Programmer";
+        _upLabel.text               = @"LeiLuRong - iOS Programmer";
         _upLabel.textColor          = [UIColor whiteColor];
         _upLabel.textAlignment      = NSTextAlignmentCenter;
         [_upView addSubview:_upLabel];
@@ -71,7 +71,7 @@
         _downLabel                    = [[UILabel alloc] initWithFrame:_downView.bounds];
         _downLabel.textColor          = [UIColor redColor];
         _downLabel.font               = [UIFont fontWithName:@"HelveticaNeue-Thin" size:13];
-        _downLabel.text               = @"YouXianMing - iOS Programmer";
+        _downLabel.text               = @"LeiLuRong - iOS Programmer";
         _downLabel.textAlignment = NSTextAlignmentCenter;
         [_downView addSubview:_downLabel];
         

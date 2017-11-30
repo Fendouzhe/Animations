@@ -2,7 +2,7 @@
 //  NodeModelHelper.m
 //  TextCapital
 //
-//  Created by YouXianMing on 15/11/11.
+//  Created by LeiLuRong on 15/11/11.
 //  Copyright © 2015年 mc. All rights reserved.
 //
 

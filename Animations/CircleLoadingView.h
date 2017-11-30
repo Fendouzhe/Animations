@@ -2,8 +2,8 @@
 //  CircleLoadingView.h
 //  Animations
 //
-//  Created by YouXianMing on 2017/1/6.
-//  Copyright © 2017年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 2017/1/6.
+//  Copyright © 2017年 LeiLuRong. All rights reserved.
 //
 
 #import "BaseMessageView.h"

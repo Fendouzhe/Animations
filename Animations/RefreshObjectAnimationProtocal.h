@@ -2,8 +2,8 @@
 //  RefreshObjectAnimationProtocal.h
 //  TableViewRefresh
 //
-//  Created by YouXianMing on 15/6/25.
-//  Copyright (c) 2015年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 15/6/25.
+//  Copyright (c) 2015年 LeiLuRong. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

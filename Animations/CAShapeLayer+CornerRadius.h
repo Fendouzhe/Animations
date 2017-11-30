@@ -2,7 +2,7 @@
 //  CAShapeLayer+CornerRadius.h
 //  UIImageRadius
 //
-//  Created by YouXianMing on 2016/11/28.
+//  Created by LeiLuRong on 2016/11/28.
 //  Copyright © 2016年 TechCode. All rights reserved.
 //
 

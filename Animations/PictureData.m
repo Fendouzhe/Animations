@@ -1,10 +1,10 @@
 //
 //  PictureData.m
 //
-//  http://www.cnblogs.com/YouXianMing/
-//  https://github.com/YouXianMing
+//  http://www.cnblogs.com/LeiLuRong/
+//  https://github.com/LeiLuRong
 //
-//  Copyright (c) YouXianMing All rights reserved.
+//  Copyright (c) LeiLuRong All rights reserved.
 //
 
 

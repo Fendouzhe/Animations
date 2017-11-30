@@ -2,7 +2,7 @@
 //  ParagraphAttributeConfig.m
 //  AttributedString
 //
-//  Created by YouXianMing on 2017/6/27.
+//  Created by LeiLuRong on 2017/6/27.
 //  Copyright © 2017年 TechCode. All rights reserved.
 //
 

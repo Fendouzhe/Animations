@@ -1,11 +1,11 @@
 //
 //  FontInfomation.m
-//  YouXianMing
+//  LeiLuRong
 //
 //  Created by XianMingYou on 15/2/11.
 //
-//  https://github.com/YouXianMing
-//  http://www.cnblogs.com/YouXianMing/
+//  https://github.com/LeiLuRong
+//  http://www.cnblogs.com/LeiLuRong/
 //
 
 #import "FontInfomation.h"

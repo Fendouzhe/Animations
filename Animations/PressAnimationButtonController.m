@@ -2,8 +2,8 @@
 //  PressAnimationButtonController.m
 //  Animations
 //
-//  Created by YouXianMing on 16/1/9.
-//  Copyright © 2016年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 16/1/9.
+//  Copyright © 2016年 LeiLuRong. All rights reserved.
 //
 
 #import "PressAnimationButtonController.h"
@@ -33,7 +33,7 @@
     
     self.button.layer.borderWidth  = 0.5f;
     self.button.animationWidth     = 200;
-    self.button.text               = @"YouXianMing";
+    self.button.text               = @"LeiLuRong";
     
     self.button.center = self.contentView.middlePoint;
     [self.contentView addSubview:self.button];

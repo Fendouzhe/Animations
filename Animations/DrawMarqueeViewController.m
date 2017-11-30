@@ -2,8 +2,8 @@
 //  DrawMarqueeViewController.m
 //  Animations
 //
-//  Created by YouXianMing on 16/4/13.
-//  Copyright © 2016年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 16/4/13.
+//  Copyright © 2016年 LeiLuRong. All rights reserved.
 //
 
 #import "DrawMarqueeViewController.h"
@@ -13,7 +13,7 @@
 #import "UIFont+Fonts.h"
 #import "UIView+GlowView.h"
 #import "GCD.h"
-
+#import "TextViewController.h"
 @interface DrawMarqueeViewController () <DrawMarqueeViewDelegate>
 
 @property (nonatomic, strong) UILabel *label;
@@ -36,11 +36,21 @@
     drawMarqueeView.marqueeDirection  = kDrawMarqueeLeft;
     drawMarqueeView.center            = self.contentView.middlePoint;
     [self.contentView addSubview:drawMarqueeView];
-    [drawMarqueeView addContentView:[self createLabelWithText:@"Copyright © 2016 YouXianMing. All rights reserved."
+    [drawMarqueeView addContentView:[self createLabelWithText:@"Copyright © 2016 LeiLuRong. All rights reserved."
                                                     textColor:[self randomColor]]];
     [drawMarqueeView startAnimation];
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(100, 100, 60, 30);
+    [self.contentView addSubview:button];
+    [button setTitle:@"888888888" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(push) forControlEvents:UIControlEventTouchUpInside];
 }
 
+- (void)push{
+    TextViewController *text = [[TextViewController alloc] init];
+    [self.navigationController pushViewController:text animated:YES];
+}
 - (UILabel *)createLabelWithText:(NSString *)text textColor:(UIColor *)textColor {
 
     NSString *string = [NSString stringWithFormat:@" %@ ", text];

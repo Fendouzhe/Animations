@@ -2,10 +2,10 @@
 //  RequestMethodType.h
 //  Networking
 //
-//  Created by YouXianMing on 15/11/6.
+//  Created by LeiLuRong on 15/11/6.
 //
-//  http://www.cnblogs.com/YouXianMing/
-//  https://github.com/YouXianMing
+//  http://www.cnblogs.com/LeiLuRong/
+//  https://github.com/LeiLuRong
 //
 
 #import <Foundation/Foundation.h>

@@ -2,8 +2,8 @@
 //  TableViewSectionItem.m
 //  TechCode
 //
-//  Created by YouXianMing on 2016/11/30.
-//  Copyright © 2016年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 2016/11/30.
+//  Copyright © 2016年 LeiLuRong. All rights reserved.
 //
 
 #import "TableViewSectionItem.h"

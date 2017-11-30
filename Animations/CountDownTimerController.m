@@ -2,8 +2,8 @@
 //  CountDownTimerController.m
 //  Animations
 //
-//  Created by YouXianMing on 15/12/2.
-//  Copyright © 2015年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 15/12/2.
+//  Copyright © 2015年 LeiLuRong. All rights reserved.
 //
 
 #import "CountDownTimerController.h"
@@ -35,7 +35,7 @@
 - (void)createDataSource {
     
     self.timesArray = [NSMutableArray array];
-    NSArray *array  = @[TimeModelWithTitle(@"YouXianMing", @20034),
+    NSArray *array  = @[TimeModelWithTitle(@"LeiLuRong", @20034),
                         TimeModelWithTitle(@"Aaron"      , @31),
                         TimeModelWithTitle(@"Nicholas"   , @1003),
                         TimeModelWithTitle(@"Nathaniel"  , @8089),

@@ -2,8 +2,8 @@
 //  NSObject+ItemStyle.m
 //  Animations
 //
-//  Created by YouXianMing on 2017/7/27.
-//  Copyright © 2017年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 2017/7/27.
+//  Copyright © 2017年 LeiLuRong. All rights reserved.
 //
 
 #import "NSObject+ItemStyle.h"

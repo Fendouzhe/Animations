@@ -2,8 +2,8 @@
 //  NSObject+PropertiesInfomation.m
 //  RuntimeModel
 //
-//  Created by YouXianMing on 16/6/10.
-//  Copyright © 2016年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 16/6/10.
+//  Copyright © 2016年 LeiLuRong. All rights reserved.
 //
 
 #import "NSObject+PropertiesInfomation.h"

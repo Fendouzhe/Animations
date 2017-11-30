@@ -2,7 +2,7 @@
 //  CountDownButton.h
 //  PictureBooks
 //
-//  Created by YouXianMing on 2017/7/4.
+//  Created by LeiLuRong on 2017/7/4.
 //  Copyright © 2017年 TechCode. All rights reserved.
 //
 

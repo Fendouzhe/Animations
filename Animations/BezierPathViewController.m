@@ -2,8 +2,8 @@
 //  BezierPathViewController.m
 //  Animations
 //
-//  Created by YouXianMing on 16/1/11.
-//  Copyright © 2016年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 16/1/11.
+//  Copyright © 2016年 LeiLuRong. All rights reserved.
 //
 
 #import "BezierPathViewController.h"
@@ -75,13 +75,14 @@
         [shapeLayer setTransform:CATransform3DMakeScale(scale, scale, 1.f)];
         [self.contentView.layer addSublayer:shapeLayer];
         
-        CGFloat MAX = 0.98f;
-        CGFloat GAP = 0.02;
+        CGFloat MAX = 0.98f;//总进度的0.02
+        CGFloat GAP = 0.02;//总进度的0.02
         
+        ///开始位置
         CABasicAnimation *aniStart = [CABasicAnimation animationWithKeyPath:@"strokeStart"];
         aniStart.fromValue         = [NSNumber numberWithFloat:0.f];
         aniStart.toValue           = [NSNumber numberWithFloat:MAX];
-        
+        ///结束位置
         CABasicAnimation *aniEnd   = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
         aniEnd.fromValue           = [NSNumber numberWithFloat:0.f + GAP];
         aniEnd.toValue             = [NSNumber numberWithFloat:MAX + GAP];

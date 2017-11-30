@@ -2,8 +2,8 @@
 //  HeaderIconCell.m
 //  Animations
 //
-//  Created by YouXianMing on 2016/11/24.
-//  Copyright © 2016年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 2016/11/24.
+//  Copyright © 2016年 LeiLuRong. All rights reserved.
 //
 
 #import "HeaderIconCell.h"
@@ -114,7 +114,7 @@ static CGFloat _HeaderIconCellHeight = 300.f;
     
     // Name label.
     self.nameLabel           = [[UILabel alloc] init];
-    self.nameLabel.text      = @"YouXianMing";
+    self.nameLabel.text      = @"LeiLuRong";
     self.nameLabel.font      = [UIFont fontWithName:@"GillSans-LightItalic" size:16.f];
     self.nameLabel.textColor = [UIColor darkGrayColor];
     [self.nameLabel sizeToFit];

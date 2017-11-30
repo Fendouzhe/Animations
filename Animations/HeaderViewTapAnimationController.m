@@ -3,7 +3,7 @@
 //  Animations
 //
 //  Created by FrankLiu on 15/11/30.
-//  Copyright © 2015年 YouXianMing. All rights reserved.
+//  Copyright © 2015年 LeiLuRong. All rights reserved.
 //
 
 #import "HeaderViewTapAnimationController.h"

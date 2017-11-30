@@ -2,7 +2,7 @@
 //  VideoDeviceAuthorization.h
 //  QRCode
 //
-//  Created by YouXianMing on 16/7/7.
+//  Created by LeiLuRong on 16/7/7.
 //  Copyright © 2016年 XianMing You. All rights reserved.
 //
 

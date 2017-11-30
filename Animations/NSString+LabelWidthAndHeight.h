@@ -2,8 +2,8 @@
 //  NSString+LabelWidthAndHeight.h
 //  ZiPeiYi
 //
-//  Created by YouXianMing on 15/12/9.
-//  Copyright © 2015年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 15/12/9.
+//  Copyright © 2015年 LeiLuRong. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

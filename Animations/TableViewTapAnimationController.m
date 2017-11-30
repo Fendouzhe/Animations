@@ -2,8 +2,8 @@
 //  TableViewTapAnimationController.m
 //  Animations
 //
-//  Created by YouXianMing on 15/11/27.
-//  Copyright © 2015年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 15/11/27.
+//  Copyright © 2015年 LeiLuRong. All rights reserved.
 //
 
 #import "TableViewTapAnimationController.h"
@@ -26,7 +26,7 @@
     
     // Init dataArray.
     self.dataArray = [NSMutableArray array];
-    NSArray *array = @[[TapAnimationModel modelWithName:@"YouXianMing" selected:YES],
+    NSArray *array = @[[TapAnimationModel modelWithName:@"LeiLuRong" selected:YES],
                        [TapAnimationModel modelWithName:@"NoZuoNoDie"  selected:NO],
                        [TapAnimationModel modelWithName:@"Animations"  selected:NO]];
     

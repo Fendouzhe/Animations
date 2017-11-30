@@ -2,7 +2,7 @@
 //  CustomCollectionView.h
 //  UICollectionView
 //
-//  Created by YouXianMing on 2017/7/11.
+//  Created by LeiLuRong on 2017/7/11.
 //  Copyright © 2017年 TechCode. All rights reserved.
 //
 

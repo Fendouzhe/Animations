@@ -2,8 +2,8 @@
 //  LabelScaleViewController.m
 //  Animations
 //
-//  Created by YouXianMing on 15/12/17.
-//  Copyright © 2015年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 15/12/17.
+//  Copyright © 2015年 LeiLuRong. All rights reserved.
 //
 
 #import "LabelScaleViewController.h"
@@ -63,7 +63,7 @@
     
     {
         ScaleLabel *label      = [[ScaleLabel alloc] initWithFrame:CGRectMake(0, 0, Width, 50)];
-        label.text             = @"YouXianMing";
+        label.text             = @"LeiLuRong";
         label.startScale       = 1.5f;
         label.endScale         = 2.f;
         label.backedLabelColor = [UIColor redColor];

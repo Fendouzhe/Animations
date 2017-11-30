@@ -2,11 +2,11 @@
 //  GradientColor.m
 //  CGContextObject
 //
-//  Created by YouXianMing on 15/11/16.
-//  Created by YouXianMing on 15/11/12.
+//  Created by LeiLuRong on 15/11/16.
+//  Created by LeiLuRong on 15/11/12.
 //
-//  https://github.com/YouXianMing
-//  http://www.cnblogs.com/YouXianMing/
+//  https://github.com/LeiLuRong
+//  http://www.cnblogs.com/LeiLuRong/
 //
 
 #import "GradientColor.h"

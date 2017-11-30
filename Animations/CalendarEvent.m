@@ -2,7 +2,7 @@
 //  CalendarEvent.m
 //  EventStore
 //
-//  Created by YouXianMing on 16/7/8.
+//  Created by LeiLuRong on 16/7/8.
 //  Copyright © 2016年 XianMing You. All rights reserved.
 //
 

@@ -2,8 +2,8 @@
 //  IrregularGridViewController.m
 //  Animations
 //
-//  Created by YouXianMing on 2016/11/11.
-//  Copyright © 2016年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 2016/11/11.
+//  Copyright © 2016年 LeiLuRong. All rights reserved.
 //
 
 #import "IrregularGridViewController.h"
@@ -87,7 +87,7 @@ typedef enum : NSUInteger {
     
     // Create dataSource.
     NSMutableArray *array  = [NSMutableArray array];
-    NSArray        *titles = @[@"YouXianMing",
+    NSArray        *titles = @[@"LeiLuRong",
                                @"Debug",
                                @"Create",
                                @"Xcode8.1",

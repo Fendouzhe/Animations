@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  Animations
 //
-//  Created by YouXianMing on 15/11/16.
-//  Copyright © 2015年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 15/11/16.
+//  Copyright © 2015年 LeiLuRong. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -15,20 +15,20 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     /*
-     Objective-c version Animations - https://github.com/YouXianMing/Animations.git
-     Swift version Animations - https://github.com/YouXianMing/Swift-Animations
+     Objective-c version Animations - https://github.com/LeiLuRong/Animations.git
+     Swift version Animations - https://github.com/LeiLuRong/Swift-Animations
      
      Lateast no warning version : Xcode Version 8.3 (8E162)
      
      QQ    705786299
-     Email YouXianMing1987@126.com
+     Email LeiLuRong1987@126.com
      
-     http://www.cnblogs.com/YouXianMing/
-     https://github.com/YouXianMing
-     https://github.com/YouXianMing/YoCelsius
+     http://www.cnblogs.com/LeiLuRong/
+     https://github.com/LeiLuRong
+     https://github.com/LeiLuRong/YoCelsius
      
      AppStore : https://itunes.apple.com/us/app/yocelsius/id967721892?l=zh&ls=1&mt=8
-     Video    : http://my.jikexueyuan.com/YouXianMing/record/
+     Video    : http://my.jikexueyuan.com/LeiLuRong/record/
      */
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];

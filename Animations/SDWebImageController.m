@@ -2,8 +2,8 @@
 //  SDWebImageController.m
 //  Animations
 //
-//  Created by YouXianMing on 16/1/1.
-//  Copyright © 2016年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 16/1/1.
+//  Copyright © 2016年 LeiLuRong. All rights reserved.
 //
 
 #import "SDWebImageController.h"
@@ -25,18 +25,18 @@
     [super viewDidLoad];
     
     // 初始化数据源
-    NSArray *picsArray = @[@"http://pic.cnitblog.com/avatar/607542/20140226182241.png",
-                           @"http://pic.cnitblog.com/avatar/751954/20150430140947.png",
-                           @"http://pic.cnitblog.com/avatar/680363/20150315172929.png",
-                           @"http://pic.cnitblog.com/avatar/490617/20140612182827.png",
-                           @"http://pic.cnitblog.com/avatar/77734/20140925202137.png",
-                           @"http://pic.cnitblog.com/avatar/726558/20150302212034.png",
-                           @"http://pic.cnitblog.com/avatar/619104/20140622195607.png",
-                           @"http://pic.cnitblog.com/avatar/695863/20150416154015.png",
-                           @"http://pic.cnitblog.com/avatar/526391/20141226102235.png",
-                           @"http://pic.cnitblog.com/avatar/485855/20140824172432.png",
-                           @"http://pic.cnitblog.com/avatar/741774/20150408141002.png",
-                           @"http://pic.cnitblog.com/avatar/618574/20140329230350.png"];
+    NSArray *picsArray = @[@"https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=ca5abb5b7bf0f736ccf344536b3cd87c/29381f30e924b899c83ff41c6d061d950a7bf697.jpg",
+                           @"https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=ca5abb5b7bf0f736ccf344536b3cd87c/29381f30e924b899c83ff41c6d061d950a7bf697.jpg",
+                           @"https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=ca5abb5b7bf0f736ccf344536b3cd87c/29381f30e924b899c83ff41c6d061d950a7bf697.jpg",
+                           @"https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=ca5abb5b7bf0f736ccf344536b3cd87c/29381f30e924b899c83ff41c6d061d950a7bf697.jpg",
+                           @"https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=ca5abb5b7bf0f736ccf344536b3cd87c/29381f30e924b899c83ff41c6d061d950a7bf697.jpg",
+                           @"https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=ca5abb5b7bf0f736ccf344536b3cd87c/29381f30e924b899c83ff41c6d061d950a7bf697.jpg",
+                           @"https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=ca5abb5b7bf0f736ccf344536b3cd87c/29381f30e924b899c83ff41c6d061d950a7bf697.jpg",
+                           @"https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=ca5abb5b7bf0f736ccf344536b3cd87c/29381f30e924b899c83ff41c6d061d950a7bf697.jpg",
+                           @"https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=ca5abb5b7bf0f736ccf344536b3cd87c/29381f30e924b899c83ff41c6d061d950a7bf697.jpg",
+                           @"https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=ca5abb5b7bf0f736ccf344536b3cd87c/29381f30e924b899c83ff41c6d061d950a7bf697.jpg",
+                           @"https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=ca5abb5b7bf0f736ccf344536b3cd87c/29381f30e924b899c83ff41c6d061d950a7bf697.jpg",
+                           @"https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike180%2C5%2C5%2C180%2C60/sign=ca5abb5b7bf0f736ccf344536b3cd87c/29381f30e924b899c83ff41c6d061d950a7bf697.jpg"];
 
     self.modelsArray = [NSMutableArray array];
     for (int count = 0; count < picsArray.count; count++) {

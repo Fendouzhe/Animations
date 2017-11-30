@@ -2,8 +2,8 @@
 //  ColorProgressView.m
 //  Animations
 //
-//  Created by YouXianMing on 16/1/17.
-//  Copyright © 2016年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 16/1/17.
+//  Copyright © 2016年 LeiLuRong. All rights reserved.
 //
 
 #import "ColorProgressView.h"
@@ -75,7 +75,7 @@
     
     [self.gradientLayer addAnimation:animation forKey:@"animateGradient"];
 }
-
+///动画结束调用该方法在该方法又调用动画，所以就一直调用该方法
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag {
     
     [self doAnimation];

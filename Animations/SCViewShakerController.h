@@ -2,8 +2,8 @@
 //  SCViewShakerController.h
 //  Animations
 //
-//  Created by YouXianMing on 16/2/25.
-//  Copyright © 2016年 YouXianMing. All rights reserved.
+//  Created by LeiLuRong on 16/2/25.
+//  Copyright © 2016年 LeiLuRong. All rights reserved.
 //
 
 #import "FullTitleController.h"

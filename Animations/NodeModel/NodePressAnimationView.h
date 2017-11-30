@@ -2,7 +2,7 @@
 //  NodePressAnimationView.h
 //  YoCelsius
 //
-//  Created by YouXianMing on 15/11/12.
+//  Created by LeiLuRong on 15/11/12.
 //  Copyright © 2015年 XianMingYou. All rights reserved.
 //
 

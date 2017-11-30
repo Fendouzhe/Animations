@@ -2,7 +2,7 @@
 //  PropertyInfomation.h
 //  NodeModel
 //
-//  Created by YouXianMing on 15/11/10.
+//  Created by LeiLuRong on 15/11/10.
 //  Copyright © 2015年 ZiPeiYi. All rights reserved.
 //
 
