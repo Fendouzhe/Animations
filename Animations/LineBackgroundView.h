@@ -2,7 +2,7 @@
 //  LineBackgroundView.h
 //  LineBackgroundView
 //
-//  Created by XianMingYou on 15/3/4.
+//  Created by LeiLuRong on 15/3/4.
 //
 //  https://github.com/Fendouzhe
 //  http://www.jianshu.com/u/a5b423cb2c25

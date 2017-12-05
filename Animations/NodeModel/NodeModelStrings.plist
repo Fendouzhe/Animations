@@ -35,10 +35,9 @@
 	<string>//
 //  [Swift-Model-Name].swift
 //
-//  http://www.cnblogs.com/YouXianMing/
-//  https://github.com/YouXianMing
+//  https://github.com/Fendouzhe
 //
-//  Copyright (c) YouXianMing All rights reserved.
+//  Copyright (c) LeiLuRong All rights reserved.
 //
 
 import UIKit
@@ -112,10 +111,9 @@ class [Swift-Model-Name]: NSObject {
 	<string>//
 //  [ModelName-WaitForReplaced].m
 //
-//  http://www.cnblogs.com/YouXianMing/
 //  https://github.com/Fendouzhe
 //
-//  Copyright (c) YouXianMing All rights reserved.
+//  Copyright (c) LeiLuRong All rights reserved.
 //
 
 
@@ -169,10 +167,9 @@ class [Swift-Model-Name]: NSObject {
 	<string>//
 //  [ModelName-WaitForReplaced].h
 //
-//  http://www.cnblogs.com/YouXianMing/
-//  https://github.com/YouXianMing
+//  https://github.com/Fendouzhe
 //
-//  Copyright (c) YouXianMing All rights reserved.
+//  Copyright (c) LeiLuRong All rights reserved.
 //
 
 

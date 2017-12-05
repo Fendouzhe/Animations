@@ -2,8 +2,8 @@
 //  AttributedStringInitConfig+Constructor.m
 //  InTheQuietNight
 //
-//  Created by XianMingYou on 15/3/30.
-//  Copyright (c) 2015年 XianMingYou. All rights reserved.
+//  Created by LeiLuRong on 15/3/30.
+//  Copyright (c) 2015年 LeiLuRong. All rights reserved.
 //
 
 #import "AttributedStringInitConfig+Constructor.h"

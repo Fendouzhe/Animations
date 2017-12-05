@@ -2,8 +2,8 @@
 //  CustomInfiniteLoopCell.m
 //  InfiniteLoopView
 //
-//  Created by XianMing You on 16/7/5.
-//  Copyright © 2016年 XianMing You. All rights reserved.
+//  Created by LeiLuRong on 16/7/5.
+//  Copyright © 2016年 LeiLuRong. All rights reserved.
 //
 
 #import "CustomInfiniteLoopCell.h"

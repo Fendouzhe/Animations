@@ -2,7 +2,7 @@
 //  FontInfomation.m
 //  LeiLuRong
 //
-//  Created by XianMingYou on 15/2/11.
+//  Created by LeiLuRong on 15/2/11.
 //
 //  https://github.com/Fendouzhe
 //  http://www.jianshu.com/u/a5b423cb2c25
