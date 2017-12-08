@@ -63,7 +63,7 @@ static CGFloat _HeaderIconCellHeight = 300.f;
     self.backgroundImageView.image       = [UIImage imageNamed:@"gerenBG"];
     [self.scaleContentView addSubview:self.backgroundImageView];
     
-    // Blur imageView.
+    // Blur imageView.----用于下拉变模糊效果
     self.blurImageView             = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, Width, HeaderIconCell.cellHeight)];
     self.blurImageView.contentMode = UIViewContentModeScaleAspectFill;
     self.blurImageView.alpha       = 0.f;
@@ -77,7 +77,7 @@ static CGFloat _HeaderIconCellHeight = 300.f;
         }];
     }];
     
-    // Gray imageView.
+    // Gray imageView.----用于上拉变灰色效果
     self.grayImageView             = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, Width, HeaderIconCell.cellHeight)];
     self.grayImageView.contentMode = UIViewContentModeScaleAspectFill;
     self.grayImageView.alpha       = 0.f;
@@ -93,13 +93,26 @@ static CGFloat _HeaderIconCellHeight = 300.f;
     
     // Bottom shapeView.
     ShapeView *areaView = [[ShapeView alloc] initWithFrame:CGRectMake(0, 0, Width, HeaderIconCell.cellHeight)];
-    areaView.fillColor  = [UIColor backgroundColor];
-    areaView.points     = @[[NSValue valueWithCGPoint:CGPointMake(0, HeaderIconCell.cellHeight)],
-                            [NSValue valueWithCGPoint:CGPointMake(0, HeaderIconCell.cellHeight - 50.f)],
-                            [NSValue valueWithCGPoint:CGPointMake(Width, HeaderIconCell.cellHeight - 100.f)],
-                            [NSValue valueWithCGPoint:CGPointMake(Width, HeaderIconCell.cellHeight)],
-                            [NSValue valueWithCGPoint:CGPointMake(0, HeaderIconCell.cellHeight)]];
+//    areaView.fillColor  = [UIColor backgroundColor];
+//    areaView.points     = @[[NSValue valueWithCGPoint:CGPointMake(0, HeaderIconCell.cellHeight)],
+//                            [NSValue valueWithCGPoint:CGPointMake(0, HeaderIconCell.cellHeight - 50.f)],
+//                            [NSValue valueWithCGPoint:CGPointMake(Width, HeaderIconCell.cellHeight - 100.f)],
+//                            [NSValue valueWithCGPoint:CGPointMake(Width, HeaderIconCell.cellHeight)],
+//                            [NSValue valueWithCGPoint:CGPointMake(0, HeaderIconCell.cellHeight)]];
     [self addSubview:areaView];
+    CAShapeLayer *layer = [CAShapeLayer layer];
+    layer.backgroundColor = [UIColor clearColor].CGColor;
+    layer.fillColor     = [UIColor backgroundColor].CGColor;
+    //layer.strokeColor   = [UIColor backgroundColor].CGColor;
+    [areaView.layer addSublayer:layer];
+    layer.frame = areaView.bounds;
+    UIBezierPath *path = [UIBezierPath bezierPath];
+    [path moveToPoint:CGPointMake(0, HeaderIconCell.cellHeight)];
+    [path addLineToPoint:CGPointMake(0, HeaderIconCell.cellHeight - 50.f)];
+    [path addLineToPoint:CGPointMake(Width, HeaderIconCell.cellHeight - 100.f)];
+    [path addLineToPoint:CGPointMake(Width, HeaderIconCell.cellHeight)];
+    [path addLineToPoint:CGPointMake(0, HeaderIconCell.cellHeight)];
+    layer.path = path.CGPath;
     
     // Icon imageView.
     self.iconImageView                     = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 110.f, 110.f)];
@@ -114,7 +127,7 @@ static CGFloat _HeaderIconCellHeight = 300.f;
     
     // Name label.
     self.nameLabel           = [[UILabel alloc] init];
-    self.nameLabel.text      = @"LeiLuRong";
+    self.nameLabel.text      = @"Mishu";
     self.nameLabel.font      = [UIFont fontWithName:@"GillSans-LightItalic" size:16.f];
     self.nameLabel.textColor = [UIColor darkGrayColor];
     [self.nameLabel sizeToFit];

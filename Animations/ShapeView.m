@@ -27,22 +27,42 @@
     return self;
 }
 
-- (void)drawRect:(CGRect)rect {
-
-    if (self.points) {
-        
-        // Init CGContextObject.
-        CGContextObjectConfig *config = [CGContextObjectConfig new];
-        config.fillColor              = [RGBColor colorWithUIColor:self.fillColor ? self.fillColor : [UIColor whiteColor]];
-        
-        _contextObject = [[CGContextObject alloc] initWithCGContext:UIGraphicsGetCurrentContext() config:config];
-        
-        // Start draw.
-        [_contextObject contextConfig:config drawFillBlock:^(CGContextObject *contextObject) {
-            
-            [contextObject addLinePoints:self.points];
-        }];
-    }
-}
+//- (void)drawRect:(CGRect)rect {
+//
+//    if (self.points) {
+//        
+//        // Init CGContextObject.
+//        CGContextObjectConfig *config = [CGContextObjectConfig new];
+//        config.fillColor              = [RGBColor colorWithUIColor:self.fillColor ? self.fillColor : [UIColor whiteColor]];
+//        /*
+//        _contextObject = [[CGContextObject alloc] initWithCGContext:UIGraphicsGetCurrentContext() config:config];
+//        
+//        // Start draw.
+//        [_contextObject contextConfig:config drawFillBlock:^(CGContextObject *contextObject) {
+//            
+//            [contextObject addLinePoints:self.points];
+//        }];
+//        */
+//        
+//        CGContextRef context = UIGraphicsGetCurrentContext();
+//        CGContextSetRGBFillColor(context,
+//                                 config.fillColor.red,
+//                                 config.fillColor.green,
+//                                 config.fillColor.blue,
+//                                 config.fillColor.alpha);
+//        CGContextBeginPath(context);
+//        
+//        [self.points enumerateObjectsUsingBlock:^(NSValue * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+//            CGPoint point = obj.CGPointValue;
+//            if (idx == 0) {
+//                CGContextMoveToPoint(context, point.x, point.y);
+//            }else{
+//                CGContextAddLineToPoint(context, point.x, point.y);
+//            }
+//        }];
+//        CGContextFillPath(context);
+//        
+//    }
+//}
 
 @end

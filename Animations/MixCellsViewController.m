@@ -50,7 +50,7 @@ typedef enum : NSUInteger {
     self.adapters = [NSMutableArray array];
     
     [self.adapters addObject:[HeaderIconCell dataAdapterWithData:nil cellHeight:HeaderIconCell.cellHeight]];
-    [self.adapters addObject:[self lineType:kSpace height:20.f]];
+    [self.adapters addObject:[self lineType:kSpace height:50.f]];
     [self.tableView reloadData];
     
     [UIView animateWithDuration:0.75f animations:^{
@@ -58,15 +58,16 @@ typedef enum : NSUInteger {
         self.tableView.alpha = 1.f;
         
     } completion:^(BOOL finished) {
-        
+        //长分割线--也是一个cell
         [self.adapters addObject:[self lineType:kLongType height:0.5f]];
         [self.adapters addObject:[ContentIconCell dataAdapterWithData:@{@"icon" : @"signlist_new",   @"title" : @"Event Register"}  cellHeight:50.f]];
-        
+        //短分割线
         [self.adapters addObject:[self lineType:kShortType height:0.5f]];
         [self.adapters addObject:[ContentIconCell dataAdapterWithData:@{@"icon" : @"collection_new", @"title" : @"Collected Event"} cellHeight:50.f]];
-        
+        //短分割线
         [self.adapters addObject:[self lineType:kShortType height:0.5f]];
         [self.adapters addObject:[ContentIconCell dataAdapterWithData:@{@"icon" : @"drawer_setting", @"title" : @"Settings"}        cellHeight:50.f]];
+        //长分割线
         [self.adapters addObject:[self lineType:kLongType height:0.5f]];
         
         NSMutableArray *indexPaths = [NSMutableArray array];
@@ -81,17 +82,17 @@ typedef enum : NSUInteger {
 
 - (CellDataAdapter *)lineType:(ELineTypeValue)type height:(CGFloat)height {
 
-    if (type == kSpace) {
+    if (type == kSpace) {//空白cell
     
-        return [ColorSpaceCell dataAdapterWithData:nil cellHeight:50.f];
+        return [ColorSpaceCell dataAdapterWithData:nil cellHeight:height];
         
     } else if (type == kLongType) {
     
-        return [ColorSpaceCell dataAdapterWithData:@{@"backgroundColor" : [UIColor whiteColor], @"lineColor" : [UIColor lineColor]} cellHeight:0.5f];
+        return [ColorSpaceCell dataAdapterWithData:@{@"backgroundColor" : [UIColor whiteColor], @"lineColor" : [UIColor lineColor]} cellHeight:height];
         
     } else if (type == kShortType) {
-    
-        return [ColorSpaceCell dataAdapterWithData:@{@"backgroundColor" : [UIColor whiteColor], @"lineColor" : [UIColor lineColor], @"leftGap" : @(50.f)} cellHeight:0.5f];
+        //leftGap 分割线左间距
+        return [ColorSpaceCell dataAdapterWithData:@{@"backgroundColor" : [UIColor whiteColor], @"lineColor" : [UIColor lineColor], @"leftGap" : @(50.f)} cellHeight:height];
         
     } else {
     

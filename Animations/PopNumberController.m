@@ -55,7 +55,7 @@
     self.numberAnimation.fromValue      = self.numberAnimation.currentValue;
     self.numberAnimation.toValue        = (arc4random() % 101 / 1.f);
     self.numberAnimation.duration       = 2.f;
-    self.numberAnimation.timingFunction = [CAMediaTimingFunction functionWithControlPoints:0.69 :0.11 :0.32 :0.88];
+    self.numberAnimation.timingFunction = [CAMediaTimingFunction functionWithControlPoints:0.69 :0.11 :0.32 :0.88];//0.69 :0.11 :0.32 :0.88总共2秒
     [self.numberAnimation saveValues];
 }
 

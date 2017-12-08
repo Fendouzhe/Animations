@@ -193,7 +193,7 @@ NSString * const backgroundViewId  = @"backgroundViewId";
     [super viewDidAppear:animated];
     
 #ifdef DEBUG
-    
+    //进入
     [self debugWithString:@"[➡️] Did entered to" debugTag:kEnterControllerType];
     
 #endif
@@ -202,7 +202,7 @@ NSString * const backgroundViewId  = @"backgroundViewId";
 - (void)viewDidDisappear:(BOOL)animated {
     
 #ifdef DEBUG
-    
+    //离开
     [self debugWithString:@"[⛔️] Did left from" debugTag:kLeaveControllerType];
     
 #endif
@@ -211,7 +211,7 @@ NSString * const backgroundViewId  = @"backgroundViewId";
 - (void)dealloc {
     
 #ifdef DEBUG
-    
+    //销毁
     [self debugWithString:@"[❌] Did released the" debugTag:kDeallocType];
     
 #endif

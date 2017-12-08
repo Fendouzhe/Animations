@@ -21,7 +21,7 @@
 /**
  *  Status bar height.
  */
-#define  StatusBarHeight      20.f
+#define  StatusBarHeight      iPhoneX_X ？40.f : 20.f
 
 /**
  *  Navigation bar height.
@@ -31,12 +31,12 @@
 /**
  *  Tabbar height.
  */
-#define  TabbarHeight         49.f
+#define  TabbarHeight         iPhoneX_X ？83.f : 49.f
 
 /**
  *  Status bar & navigation bar height.
  */
-#define  StatusBarAndNavigationBarHeight   (20.f + 44.f)
+#define  StatusBarAndNavigationBarHeight   (StatusBarHeight + NavigationBarHeight)
 
 /**
  *  iPhone4 or iPhone4s
@@ -57,6 +57,11 @@
  *  iPhone6Plus or iPhone6sPlus
  */
 #define  iPhone6_6sPlus (Width == 414.f && Height == 736.f ? YES : NO)
+
+/**
+ *  iPhoneX
+ */
+#define  iPhoneX_X (Width == 375.f && Height == 812.f ? YES : NO)
 
 @interface UIView (SetRect)
 

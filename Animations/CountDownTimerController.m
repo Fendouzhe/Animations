@@ -35,7 +35,7 @@
 - (void)createDataSource {
     
     self.timesArray = [NSMutableArray array];
-    NSArray *array  = @[TimeModelWithTitle(@"LeiLuRong", @20034),
+    NSArray *array  = @[TimeModelWithTitle(@"LeiLuRong"  , @20034),
                         TimeModelWithTitle(@"Aaron"      , @31),
                         TimeModelWithTitle(@"Nicholas"   , @1003),
                         TimeModelWithTitle(@"Nathaniel"  , @8089),

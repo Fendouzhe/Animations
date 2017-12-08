@@ -40,7 +40,7 @@
     // Back button.
     UIButton *backButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 64)];
     backButton.center    = CGPointMake(20, self.titleView.middleY);
-    [backButton setImage:[UIImage imageNamed:@"backIcon"]             forState:UIControlStateNormal];
+    [backButton setImage:[UIImage imageNamed:@"backIcon"] forState:UIControlStateNormal];
     [backButton setImage:[UIImage imageNamed:@"backIcon_highlighted"] forState:UIControlStateHighlighted];
     [backButton addTarget:self action:@selector(popSelf) forControlEvents:UIControlEventTouchUpInside];
     [backButton.imageView setContentMode:UIViewContentModeCenter];
